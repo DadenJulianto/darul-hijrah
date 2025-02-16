@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- gogle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!-- end -->
+      <!-- icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <!-- end -->
+    <title>Darul Hijrah Kediri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section  class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="coursa.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"   onclick="showMenu()"></i>
+
+        </nav>
+       
+       <h1>COURSE</h1>
+    </section>
+
+
+    <!-- Course  -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  
+        <div class="row">
+          <div class="course-col">
+              <h3>Intermidiate</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore similique at, minus eveniet numquam nobis dolorem cum cupiditate architecto quidem eos officiis sed aliquam nemo necessitatibus eaque? Dolorum laborum est iure possimus aperiam explicabo reprehenderit similique, inventore libero vero? Natus debitis, voluptatum nostrum at quasi cumque fugiat inventore in corrupti laboriosam vel, consectetur assumenda provident, totam possimus autem facilis quibusdam saepe ut? Dolorum maiores, quibusdam sequi, voluptates quasi soluta delectus necessitatibus aliquam facere at et harum qui laboriosam ullam architecto tempora? Optio sunt earum quod animi quas facere quibusdam sint similique numquam doloribus quos minima inventore, expedita unde? Perspiciatis.</p>
+          </div>
+          <div class="course-col">
+              <h3>Degree</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore similique at, minus eveniet numquam nobis dolorem cum cupiditate architecto quidem eos officiis sed aliquam nemo necessitatibus eaque? Dolorum laborum est iure possimus aperiam explicabo reprehenderit similique, inventore libero vero? Natus debitis, voluptatum nostrum at quasi cumque fugiat inventore in corrupti laboriosam vel, consectetur assumenda provident, totam possimus autem facilis quibusdam saepe ut? Dolorum maiores, quibusdam sequi, voluptates quasi soluta delectus necessitatibus aliquam facere at et harum qui laboriosam ullam architecto tempora? Optio sunt earum quod animi quas facere quibusdam sint similique numquam doloribus quos minima inventore, expedita unde? Perspiciatis.</p>
+          </div>
+          <div class="course-col">
+              <h3>Post Graduation</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore similique at, minus eveniet numquam nobis dolorem cum cupiditate architecto quidem eos officiis sed aliquam nemo necessitatibus eaque? Dolorum laborum est iure possimus aperiam explicabo reprehenderit similique, inventore libero vero? Natus debitis, voluptatum nostrum at quasi cumque fugiat inventore in corrupti laboriosam vel, consectetur assumenda provident, totam possimus autem facilis quibusdam saepe ut? Dolorum maiores, quibusdam sequi, voluptates quasi soluta delectus necessitatibus aliquam facere at et harum qui laboriosam ullam architecto tempora? Optio sunt earum quod animi quas facere quibusdam sint similique numquam doloribus quos minima inventore, expedita unde? Perspiciatis.</p>
+          </div>
+        </div>
+    </section>
+
+
+       <!-- fasilitas -->
+       <section class="fasilitas">
+        <h1>Our fasilitas</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipi elit.</p>
+  
+        <div class="row">
+          <div class="fasilitas-col">
+              <img src="image/library.png" alt="">
+              <h3>World  Clasas library</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam recusandae unde consequuntur dolorum natus! Dolorem animi quod voluptatem perspiciatis?</p>
+          </div>
+          <div class="fasilitas-col">
+              <img src="image/basketball.png" alt="">
+              <h3>Basketball</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam recusandae unde consequuntur dolorum natus! Dolorem animi quod voluptatem perspiciatis?</p>
+          </div>
+          <div class="fasilitas-col">
+              <img src="image/cafeteria.png" alt="">
+              <h3>World  Clasas library</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam recusandae unde consequuntur dolorum natus! Dolorem animi quod voluptatem perspiciatis?</p>
+          </div>
+        </div>
+        </section>
+        <!-- END -->
+
+         <!-- FOOTER -->
+        <section class="footer">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatem temporibus possimus aliquid, soluta consequatur harum facere nobis dolor unde? Reiciendis obcaecati tempora amet cupiditate accusamus ipsum maxime necessitatibus.</p>
+        </section>
+    <!-- javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+
+        function hiddenMenu(){
+            navLinks.style.right="-200px"
+        }
+
+    </script>
+</body>
+</html>
